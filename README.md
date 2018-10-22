@@ -2,9 +2,9 @@
 
 This project is made for practicing JavaScript syntax.
 
-- University: Ajou University [^1]
+- University: [1]:Ajou University
 - Class: Open Source Software
 - Professor: Jae Young Choi
 
-[^1]: University located in Suwon.
+[1]: www.ajou.ac.kr
 
