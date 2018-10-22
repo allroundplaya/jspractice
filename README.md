@@ -2,9 +2,9 @@
 
 This project is made for practicing JavaScript syntax.
 
-- University: [1]:Ajou University
+- University: [Ajou University][1]
 - Class: Open Source Software
 - Professor: Jae Young Choi
 
-[1]: www.ajou.ac.kr
+[1]: www.ajou.ac.kr "Link to homepage."
 
