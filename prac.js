@@ -68,3 +68,38 @@ var a= [1, 2];
 var b = [function(){ return 1; }, function() {return 2; }];
 console.log(a[0]); // 1
 console.log(b[1]()); // 2 (be sure to use "()")
+
+// conditional
+
+function f(a){
+  switch(a){
+    case 1:
+      console.log("1st condition");
+      break;
+    case 2:
+      console.log("2nd condition");
+      break;
+    default:
+      console.log("default condition");
+      break;
+  }
+  return ;
+}
+
+f(1);
+f(2);
+f(3);
+
+function isEqual(a, b){
+  try{
+    if(a-b==0) throw "equal";
+  }
+  catch(e){
+    return 1;
+  }
+  finally{
+    return 0;
+  }
+}
+
+console.log(isEqual(3,3));
