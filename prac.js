@@ -69,7 +69,7 @@ var b = [function(){ return 1; }, function() {return 2; }];
 console.log(a[0]); // 1
 console.log(b[1]()); // 2 (be sure to use "()")
 
-// conditional
+// conditional statements
 
 function f(a){
   switch(a){
@@ -86,9 +86,12 @@ function f(a){
   return ;
 }
 
-f(1);
-f(2);
-f(3);
+f(1); // "1st condition"
+f(2); // "2nd condition"
+f(3); // "default condition"
+
+
+// Try - Catch Syntax
 
 function isEqual(a, b){
   try{
@@ -103,3 +106,18 @@ function isEqual(a, b){
 }
 
 console.log(isEqual(3,3));
+
+// Date Object
+
+var date = new Date();
+console.log(date.getMonth());
+
+
+// Array Object
+
+var a = new Array(3);
+for(var i = 0 ; i < a.length ; i++){
+  a[i] = i+3;
+  console.log(a[i]);
+}
+console.log(a);
