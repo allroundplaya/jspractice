@@ -6,5 +6,5 @@ This project is made for practicing JavaScript syntax.
 - Class: Open Source Software
 - Professor: Jae Young Choi
 
-[1]: www.ajou.ac.kr "Link to homepage."
+[1]: https://www.ajou.ac.kr/ "Link to homepage."
 
