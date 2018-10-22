@@ -6,5 +6,5 @@ This project is made for practicing JavaScript syntax.
 - Class: Open Source Software
 - Professor: Jae Young Choi
 
-[^1]: University located in Suwon. ["www.ajou.ac.kr"]
+[^1]: University located in Suwon.
 
