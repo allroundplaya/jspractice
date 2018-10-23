@@ -121,3 +121,8 @@ for(var i = 0 ; i < a.length ; i++){
   console.log(a[i]);
 }
 console.log(a);
+
+// testing
+
+console.log(type("1" + 2)); // concatenation
+console.log(type("1" - 2)); // just subtraction
