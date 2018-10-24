@@ -1,4 +1,4 @@
-# jspractice
+# JavaScript Practice
 
 This project is made for practicing JavaScript syntax.
 
