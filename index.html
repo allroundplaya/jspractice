@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <Title>Hello Javascript</Title>
+  <script src="jsclickTest.js"></script>
+</head>
+
+<body>
+  <h1>Button Test</h1>
+  <input type="button" onclick="alert('Hello Javascript')" value="push me"> <br>
+  Name:
+  <input id = "name" type="text" value="Enter your name"> <br>
+  Message:
+  <input id = "message" type="text" value="Message to send"> <br>
+  <input type = "button"
+    onclick="jsclickTest(document.getElementById('name').value, document.getElementById('message').value)" value= "Message Generator"> <br>
+  <div id = "jstest" style="width: 300; height: 200;">
+  </div>
+
+</body>
+
+</html>

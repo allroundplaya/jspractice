@@ -126,3 +126,17 @@ console.log(a);
 
 console.log(type("1" + 2)); // concatenation
 console.log(type("1" - 2)); // just subtraction
+
+var calculator = {
+  operand1: 1,
+  operand2: 1,
+  add: function(){
+    this.result = this.operand1 + this.operand2;
+    return this.result  // add를 불러야 result가 생성이 된다.
+  }
+};
+console.log(calculator.result);
+console.log(calculator.add());
+console.log(calculator.result);
+
+console.log(115.1234567890123456789.toExponential());
