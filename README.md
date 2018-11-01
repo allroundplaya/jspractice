@@ -3,7 +3,7 @@
 This project is made for practicing JavaScript syntax.
 
 - University: [Ajou University][1]
-- Class: Open Source Software
+- Class: Open Source Software Fall Semester
 - Professor: Jae Young Choi
 
 
