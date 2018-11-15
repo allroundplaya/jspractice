@@ -10,8 +10,7 @@ console.log("Testing Node.js Server...")
 http.createServer(function(request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
   response.write("<h2>Hello World</h2>");
-  response.write("<h1>this is korea</h1>");
-  
+  response.write("<p>This project is done by Eun Sung Jo.</p>")
 
   response.end();
 
